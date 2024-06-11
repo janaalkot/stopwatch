@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">TIK TOK !!</h1>
+        <div class="stopwatch">
+            <div class="counting">
+                <span id="min">00</span>:
+                <span id="sec">00</span>:
+                <span id="millesec">00</span>
+            </div>
+            <div class="control">
+                <button id="startbtn">START</button>
+                <button id="stopbtn">STOP</button>
+                <button id="pausebtn">PAUSE</button>
+                <button id="resetbtn">RESET</button>
+
+            </div>
+            <div class="laps">
+                <h2 class="laptitle">Laps</h2>
+                <ul id="laplist"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
